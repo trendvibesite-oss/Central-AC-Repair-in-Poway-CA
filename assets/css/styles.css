@@ -1442,3 +1442,146 @@ li {
 .skip-link:focus {
   top: 0;
 }
+
+/* Technical Illustration & Diagram Container */
+.tech-diagram-container {
+  background: #FFFFFF;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  box-shadow: var(--shadow-md);
+  text-align: center;
+}
+
+.tech-diagram-container svg {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 0.75rem;
+}
+
+.tech-diagram-caption {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+/* Technical Data & Comparison Tables */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  margin: 2rem 0;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+}
+
+.tech-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.925rem;
+  background: #FFFFFF;
+}
+
+.tech-table th {
+  background: var(--color-primary);
+  color: #FFFFFF;
+  font-weight: 700;
+  padding: 0.85rem 1rem;
+  font-family: var(--font-display);
+}
+
+.tech-table td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text-main);
+  line-height: 1.5;
+}
+
+.tech-table tr:nth-child(even) td {
+  background-color: var(--color-bg-alt);
+}
+
+.tech-table tr:hover td {
+  background-color: var(--color-accent-soft);
+}
+
+.tech-badge-danger {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  background: var(--color-emergency-soft);
+  color: var(--color-emergency);
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.tech-badge-success {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  background: #DCFCE7;
+  color: #15803D;
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.tech-badge-warn {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  background: #FEF3C7;
+  color: #B45309;
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.callout-box {
+  background: #F0F9FF;
+  border-left: 4px solid #0EA5E9;
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: 1.25rem 1.5rem;
+  margin: 1.75rem 0;
+}
+
+.callout-box h4 {
+  color: #0C4A6E;
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  font-size: 1.1rem;
+}
+
+.callout-box p {
+  color: #075985;
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+/* Semantic Keyword & Diagnostic Tags */
+.keyword-cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.keyword-tag {
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-full);
+  font-size: 0.825rem;
+  color: var(--color-text-muted);
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.keyword-tag:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+  background: var(--color-accent-soft);
+}
+
+
