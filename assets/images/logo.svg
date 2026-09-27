@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" width="320" height="64">
+  <defs>
+    <linearGradient id="grad-icon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2C59" />
+      <stop offset="100%" stop-color="#1A3E7A" />
+    </linearGradient>
+    <linearGradient id="grad-orange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B00" />
+      <stop offset="100%" stop-color="#E05E00" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Snowflake & Cooling Fan Shield Icon -->
+  <g transform="translate(6, 6)">
+    <rect width="52" height="52" rx="14" fill="url(#grad-icon)" />
+    <!-- Cooling breeze / snowflake stylized icon -->
+    <path d="M26 12v28M12 26h28M16 16l20 20M16 36l20-20" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="26" cy="26" r="6" fill="url(#grad-orange)" />
+    <path d="M26 18l3 3M26 34l-3-3M18 26l3-3M34 26l-3 3" stroke="#FFA559" stroke-width="2" stroke-linecap="round" />
+  </g>
+  
+  <!-- Brand Text -->
+  <text x="68" y="27" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="20" fill="#0F2C59" letter-spacing="-0.5">CENTRAL AC REPAIR</text>
+  <text x="68" y="47" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="14" fill="#FF6B00" letter-spacing="1">POWAY, CA · 24/7 DISPATCH</text>
+</svg>
