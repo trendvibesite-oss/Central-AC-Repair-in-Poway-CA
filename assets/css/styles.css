@@ -1201,6 +1201,17 @@ li {
   box-shadow: var(--shadow-sm);
 }
 
+.sidebar-card-cta p {
+  color: var(--color-text-muted) !important;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.sidebar-card-cta div {
+  color: #64748B;
+}
+
 .sidebar-card-title {
   font-size: 1.25rem;
   margin-bottom: 1rem;
